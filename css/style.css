@@ -189,3 +189,13 @@ form .form-control::placeholder{
     color: white;
 }
 
+
+/*footer*/
+footer{
+    background: linear-gradient(hwb(240 0% 0%), rgb(0, 195, 255));;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
