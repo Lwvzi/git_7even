@@ -8,7 +8,7 @@ body{
     line-height: 1.8rem;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, h6{
     font-weight: 800 !important;
 }
 
@@ -139,3 +139,26 @@ section{
     font-size: 49px;
 }
 
+
+
+/*reviews*/
+
+.review{
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.707);
+}
+
+.review .person{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.review .person img{
+    width: 77px;
+    height: 77px;
+    border-radius: 100px;
+}
+
+.review .stars{
+    color: gold;
+}
