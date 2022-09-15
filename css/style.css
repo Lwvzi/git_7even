@@ -163,3 +163,29 @@ section{
 .review .stars{
     color: gold;
 }
+
+
+
+/*Contact Us*/
+
+form .form-control{
+    border: 0.5;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.816);
+}
+
+form .form-control:focus{
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+form input .form-control{
+    height: 56px;
+}
+
+form .form-control::placeholder{
+    color: white;
+}
+
